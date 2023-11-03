@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login myturf.com</title>
+        <style >
+            .login_page{
+                width: 90%;
+                max-width: 250px;
+                position: absolute;
+                margin-top: 120px;
+                margin-left: 500px;
+                padding: 50px, 60px, 70px;
+                text-align: center;
+                background-color: whitesmoke;
+                border: solid black;
+                border-radius: 30px;
+                border-width: 3px;
+            }
+
+            .login_box{
+                padding-bottom: 10px
+            }
+
+
+            body {
+                background-image: url('bg2.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+
+            i{
+                margin-top: 30px;
+            }
+
+            input{
+                border-width: 1.5px;
+                border-radius: 5px;
+                border-color:solid black;
+            }
+
+            .login-button{
+                background-color: red;
+                border-color: black;
+                border-width: 2px;
+                color: aliceblue;
+                margin-bottom: 10px;
+                border-radius: 7px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+            
+            
+        </style>
+            <script src="https://kit.fontawesome.com/77e47bc2db.js" crossorigin="anonymous"></script>
+
+            <script src="myturf.js"defer></script>
+    </head>
+</html>
+
+<script>
+</script>
+
+<body> 
+    <div class="login_page">
+         <i class="fa-solid fa-user"></i>
+                <h1>Login</h1>
+        <form>
+    
+        <div class="login_box">
+            <div class="input-field">
+                <input type="text" placeholder=" User Name">
+            </div>
+        </div>
+
+        <div class="login_box">
+            <div class="input-field">
+                <input type="password" placeholder="password">
+            </div>
+        </div>
+        
+        <div class="login_box">
+            <input onclick="urfunction()" class="login-button" type="submit">
+                         
+            </button>
+        </div>
+        </form>
+</div>
+</body>
